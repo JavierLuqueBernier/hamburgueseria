@@ -178,3 +178,112 @@ header nav .menu li a.activo, header nav .menu li a:hover{
     color: white;
     text-decoration: none;
 }
+
+/* our service*/
+
+main section.container{
+    padding-top: 3.125em;
+    padding-bottom: 3.125em;
+}
+main section h2{
+    color: black;
+    font-family: 'Handlee', cursive;
+    font-size: 2em;
+    text-align: center;
+}
+main section h2 span{
+    color: #fa563a;
+}
+main section .underline{
+    position: relative;
+    width: 110px;
+    margin: 0 auto;
+}
+main section .underline hr{
+    border-color: #fa563a;
+    position: absolute;
+    width: 100%;
+    top: -1px;
+}
+main section .underline span{
+    display: block;
+    text-align: center;
+    color: #fa653a;
+    font-weight: bold;
+}
+main section .flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+main section .flex article{
+    width: 100;
+    padding: 1.825em;
+    border-bottom: 1px solid #aaa;
+}
+main section .flex article:last-child{
+    border: 0px;
+}
+main section article div i{
+    color: #fa573a;
+    font: 2em;
+    border: 2px solid #fa573a;
+    padding: .8rem;
+}
+main section article div .fa-truck{
+    transform: rotateY(180deg);
+
+}
+main section article h3{
+    font-weight: 700;
+    margin: 1em 0;
+}
+main section .enlace{
+    text-decoration: none;
+    color: #fa573a;
+    margin-top: 1em;
+    display: block;
+}
+main section div article a:hover .fa-long-arrow-alt-right{
+    margin-left: 10px;
+    transition: .5s;
+}
+main section .columna{
+    width: 100%;
+    padding: 1.25em 0;
+}
+main section .image{
+    widows: 85%;
+    margin: 0 auto;
+}
+main section .imagen .marco{
+    border: 3px solid #fa573a;
+    background-color: transparent;
+    transform: rotateZ(10deg);
+    transition: 1s;
+}
+main section .imagen .marco img{
+    transform: rotateZ(-10deg);
+    transition: 1s;
+}
+main section .imagen:hover .marco, main section .imagen:hover img{
+    transform: rotateZ(0deg);
+}
+main section div div h3{
+    font-weight: 700;
+}
+main section div div h4{
+    color: #fa573a;
+    display: block;
+    margin: .5em 0;
+}
+footer{
+    background-color: #21242e;
+}
+footer div p{
+    color: white;
+    padding: 20px 0;
+}
+footer div a{
+    color: white;
+    text-decoration: none;
+}
