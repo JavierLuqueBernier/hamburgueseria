@@ -182,8 +182,8 @@ header nav .menu li a.activo, header nav .menu li a:hover{
 /* our service*/
 
 main section.container{
-    padding-top: 3.125em;
-    padding-bottom: 3.125em;
+    padding-top: 2.125em;
+    padding-bottom: 2.125em;
 }
 main section h2{
     color: black;
@@ -221,7 +221,7 @@ main section .flex article{
     border-bottom: 1px solid #aaa;
 }
 main section .flex article:last-child{
-    border: 0px;
+    border-bottom: 0px;
 }
 main section article div i{
     color: #fa573a;
@@ -251,8 +251,8 @@ main section .columna{
     width: 100%;
     padding: 1.25em 0;
 }
-main section .image{
-    widows: 85%;
+main section .imagen{
+    width: 85%;
     margin: 0 auto;
 }
 main section .imagen .marco{
@@ -286,4 +286,65 @@ footer div p{
 footer div a{
     color: white;
     text-decoration: none;
+}
+@media(min-width: 48.063em)
+{
+    header .nav_top a span{
+        display: inline-block;
+        font-size: .65em;
+    }
+    main section .flex article{
+        width: 50%;
+        padding: 1.825em 1em;
+        border-bottom: 0px;
+        border-left: 1px solid #aaa;
+        margin-bottom: 1em;
+    }
+
+    main section .underline{
+        margin-bottom: 2em;
+    }
+    main section .flex article:last-child{
+        width: 100%;
+    }
+}
+@media(min-width: 62.750em){
+
+    header .hamburguesa{
+        cursor: pointer;
+        float: none;
+        display: none;
+    }
+    header nav .menu{
+        padding-top: 0px;
+        float: right;
+    }
+    header nav .menu li{
+        display: inline-block;
+        padding: .5em 1.250em;
+        text-align: left;
+        border-bottom: 0px;
+    }
+    header nav .menu li:last-child{
+        padding-right: 0em;
+    }
+    main section .columna{
+        width: 50%;
+        padding: 1.25em 1.25em;
+    }
+
+}
+@media(min-width: 75.0625em){
+    main section .flex article{
+        width: 33.33%;
+    }  
+    main section .flex article:last-child{
+        width: 33.33%;
+    }
+
+    .hero>div{
+        padding: 7% 3%;
+        max-width: 1100px;
+        margin: 0 auto;
+    }
 }
