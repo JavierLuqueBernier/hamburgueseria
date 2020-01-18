@@ -206,6 +206,26 @@ main section div article{
     display: block;
     margin: 2em 0;
 }
+main section div article p{
+    margin: 1em 0;
+}
 main section div article span{
     color: #fa563a;
+}
+main section .enlace{
+    text-decoration: none;
+    color: #fa563a;
+    margin: 1rem 0;
+    display: block;
+}
+footer{
+    background-color: #21242e;
+}
+footer div p{
+    color: white;
+    padding: 20px 0;
+}
+footer div a{
+    color: white;
+    text-decoration: none;
 }
