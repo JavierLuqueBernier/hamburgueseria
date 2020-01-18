@@ -124,7 +124,7 @@ main section.container{
     padding-bottom: 2.125em;
 }
 main section h2{
-    color: black;
+    color: white;
     font-family: 'Handlee', cursive;
     font-size: 2em;
     text-align: center;
@@ -148,4 +148,35 @@ main section .underline span{
     text-align: center;
     color: #fa653a;
     font-weight: bold;
+}
+main section .flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* Menu breakfast lunch */
+main{
+    background-color: #21242e;
+}
+
+main nav .menu{
+    padding-top: 50px;
+}
+
+main nav .menu li{
+    padding:  1.250em;
+    text-align: left;
+}
+main nav .menu li:last-child{
+    border: 0px;
+}
+
+main nav .menu li a{
+    color:white;
+    text-decoration: none;
+    display: block;
+}
+
+main nav .menu li.activo{
+    background-color: #fa563a;
+    border-radius: 3px;
 }
