@@ -211,6 +211,7 @@ main section div article p{
 }
 main section div article span{
     color: #fa563a;
+    margin-left: 2em;
 }
 main section .enlace{
     text-decoration: none;
@@ -228,4 +229,12 @@ footer div p{
 footer div a{
     color: white;
     text-decoration: none;
+}
+@media(min-width: 48.063em)
+{
+    header .nav_top a span{
+        display: inline-block;
+        font-size: .65em;
+    }
+
 }
