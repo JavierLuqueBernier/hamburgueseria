@@ -156,6 +156,7 @@ main section .flex{
 /* Menu breakfast lunch */
 main{
     background-color: #21242e;
+    color: white;
 }
 
 main nav .menu{
@@ -171,12 +172,40 @@ main nav .menu li:last-child{
 }
 
 main nav .menu li a{
-    color:white;
     text-decoration: none;
     display: block;
+    color: white;
 }
 
 main nav .menu li.activo{
     background-color: #fa563a;
     border-radius: 3px;
+}
+/*Todays Hot Offers*/
+
+main section .spm .underline{
+    position: relative;
+    width: 50px;
+    margin: .5em auto;
+    display: flex;
+}
+main section .spm .underline hr{
+    border-color: #fa563a;
+    position: absolute;
+    width: 100%;
+    top: -1px;
+}
+main section div h3{
+    font-weight: 700;
+    margin: .5em 0;
+}
+main section div p{
+    margin: 1.5em 0;
+}
+main section div article{
+    display: block;
+    margin: 2em 0;
+}
+main section div article span{
+    color: #fa563a;
 }
