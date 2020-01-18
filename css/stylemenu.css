@@ -236,5 +236,25 @@ footer div a{
         display: inline-block;
         font-size: .65em;
     }
-
+}
+@media(min-width: 62.750em)
+{
+    header .hamburguesa{
+        cursor: pointer;
+        float: none;
+        display: none;
+    }
+    header nav .menu{
+        padding-top: 0px;
+        float: right;
+    }
+    header nav .menu li{
+        display: inline-block;
+        padding: .5em 1.250em;
+        text-align: left;
+        border-bottom: 0px;
+    }
+    header nav .menu li:last-child{
+        padding-right: 0em;
+    }
 }
