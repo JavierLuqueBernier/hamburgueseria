@@ -163,7 +163,7 @@ main{
 }
 
 main nav .menu{
-    padding-top: 50px;
+    padding-top: 20px;
 }
 
 main nav .menu li{
@@ -187,10 +187,9 @@ main nav .menu li.activo{
 /*Todays Hot Offers*/
 
 main section .spm .underline{
-    position: relative;
     width: 50px;
-    margin: .5em auto;
-    display: flex;
+    margin: .3em auto;
+    /*colocar la linea de los cojones a la izquierda??*/
 }
 main section .spm .underline hr{
     border-color: #fa563a;
@@ -203,11 +202,14 @@ main section div h3{
     margin: .5em 0;
 }
 main section div p{
-    margin: 1.5em 0;
-}
-main section article{
-    display: block;
     margin: 2em 0;
+}
+main div section article{
+    display: block;
+    margin: .5em 0;
+}
+main div section article h3{
+    margin: .5em 0;
 }
 main section article p{
     margin: 1em 0;
