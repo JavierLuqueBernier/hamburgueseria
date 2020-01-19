@@ -269,6 +269,13 @@ footer div a{
     header nav .menu li:last-child{
         padding-right: 0em;
     }
+    main .flex article{
+        width: 48%;
+        display: inline-block;
+        padding: 0 2em;
+        margin-right: 1em;
+    }
+    
 }
 @media(min-width: 75.0625em)
 {
@@ -276,9 +283,10 @@ footer div a{
         width:100%;
         position: relative;
     }
-    main .flex .container article{
-        padding: 1%;
+    main .flex article{
+        width: 30%;
         display: inline-block;
-        width:48%;
+        padding: 0 2em;
+        margin-right: 1em;
     }
 }
