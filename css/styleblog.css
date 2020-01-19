@@ -289,4 +289,7 @@ footer div a{
         padding: 0 2em;
         margin-right: 1em;
     }
+    main .flex article:last-child{
+        margin-top: 1em;
+    }
 }
