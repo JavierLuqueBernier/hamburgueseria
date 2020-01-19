@@ -188,8 +188,8 @@ main nav .menu li.activo{
 
 main section .spm .underline{
     width: 50px;
-    margin: .3em auto;
-    /*colocar la linea de los cojones a la izquierda??*/
+    margin-left: 0;
+    /*linea de los cojones*/
 }
 main section .spm .underline hr{
     border-color: #fa563a;
@@ -223,6 +223,11 @@ main section .enlace{
     color: #fa563a;
     margin: 1rem 0;
     display: block;
+    width: 150px;
+}
+main div section article a:hover .fa-long-arrow-alt-right{
+    margin-left: 10px;
+    transition: .5s;
 }
 footer{
     background-color: #21242e;
@@ -242,6 +247,7 @@ footer div a{
         font-size: .65em;
     }
 }
+
 @media(min-width: 62.750em)
 {
     header .hamburguesa{
@@ -261,5 +267,37 @@ footer div a{
     }
     header nav .menu li:last-child{
         padding-right: 0em;
+    }
+}
+
+@media(min-width: 75.063em)
+{
+    main div.container{
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+    main div div section nav{
+        height: 20em;
+    }
+
+    main div div section.columna{
+        width: 25%;
+        padding: 1em 0;
+        margin: 1em;
+        height: 33em;
+    }
+    main section.columna:last-child{
+        width: 68%;
+        padding: 1em 0;
+        margin-bottom: 1em;
+    }
+    main div section article img{
+        width: 211px;
+        height: auto;
+        padding-right: 1em;
+        padding-bottom: 2em;
+    }
+    main div section article .flex{
+        display: inline-block;
     }
 }
