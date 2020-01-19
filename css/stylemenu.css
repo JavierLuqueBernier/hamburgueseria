@@ -240,6 +240,9 @@ footer div a{
     color: white;
     text-decoration: none;
 }
+
+/* @Medias */
+
 @media(min-width: 48.063em)
 {
     header .nav_top a span{
