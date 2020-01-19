@@ -242,8 +242,8 @@ footer div a{
 @media(min-width: 48.063em)
 {
     header .nav_top a span {
-        display: inline;
-        font-size: 50%;
+        display: inline-block;
+        font-size: .65em;
     }
 
 }
